@@ -15,38 +15,36 @@ struct ContentView: View {
     var body: some View {
         
         NavigationStack{
+           
             ZStack{
                 Color("sand")
                     .edgesIgnoringSafeArea(.all)
-                VStack(spacing: 60){
+                VStack(spacing: 70){
                     Text("CATEGORIAS")
                         .font(.system(size: 40))
                         .foregroundColor(.brown)
                         .bold()
                     
                     HStack(spacing: 20){
-                        Button{}
-                    label: {
-                        Image("FACEIS")
-                            .resizable()
-                            .frame(width: 169, height: 60)
+                        
+                        NavigationLink(destination: ContentView(),label : {
+                            Image("FACEIS")})
+                              .frame(width: 169, height: 60)
                            
-                    }
-                        Button{}
-                    label: {
-                        Image("COMESTIVEIS")
-                            .resizable()
-                            .frame(width: 165, height: 56)
-                    }
+                    
+                        NavigationLink(destination:
+                            ContentView(), label: {
+                            Image("COMESTIVEIS")})
+                              .frame(width: 165, height: 56)
                     }
                     
+                    
                     HStack(spacing: 20){
-                        Button{}
-                    label: {
-                        Image("MEDICINAIS")
-                            .resizable()
+                        NavigationLink(destination:
+                            ContentView(), label: {
+                            Image("MEDICINAIS")})
                             .frame(width: 165, height: 56)
-                    }
+                    
                         Button{}
                     label: {
                         Image("VENENOSAS")
@@ -65,6 +63,8 @@ struct ContentView: View {
         
     }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
