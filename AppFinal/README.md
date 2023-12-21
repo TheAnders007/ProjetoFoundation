@@ -19,6 +19,6 @@ Chegamos a ideia de um aplicativo que irá contribuir no combate ao problema: Li
   
 | Colaborador 1 | Colaborador 2 | Colaborador 3 | Colaborador 4 |
 | :-----------: | :-----------: | :-----------: | :-----------: |
-| Anderson Maia | Antonio Abner | Camila Brauna | Leticia Vitoria |
+| [Anderson Maia](https://github.com/TheAnders007) | [Antonio Abner](https://github.com/frsmth) | [Camila Brauna](https://github.com/Cam1ss) | [Leticia Vitoria](https://github.com/mareshbard) |
 
 
